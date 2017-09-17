@@ -21,7 +21,8 @@
             
                 <div class="col-md-5">
                     <p>
-                    <?php esc_html_e( 'Powered by ', 'caos' ); ?><a href="<?php echo esc_url( __( 'https://wordpress.org/', 'caos' ) ); ?>"><?php esc_html_e( 'WordPress', 'caos' ); ?></a>. <?php esc_html_e( 'Caos designed by ', 'caos' ); ?><a rel="nofollow" rel="designer" href="https://www.quemalabs.com/">Quema Labs</a>.
+                    <?php
+                        //esc_html_e( 'Powered by ', 'caos' ); ?>
                     </p>
                 </div>
                 <div class="col-md-7">
