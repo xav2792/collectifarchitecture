@@ -6,9 +6,6 @@ Template: caos
 Version: 0.1.0
 */
 
-
-/* surcharge du style de base */
-
 /*footer*/
 .sub-footer{
     padding-top: 0;
@@ -44,5 +41,11 @@ h3.sous-titre-site{
 
 .logo_container .ql_logo{
     font-size:38px;
+    color:black;
+}
+
+/*page d'accueil */
+
+.textimg{
     color:black;
 }
