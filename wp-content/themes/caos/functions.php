@@ -15,6 +15,8 @@ if ( ! function_exists( 'caos_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
+
 function caos_setup() {
 
 	/*
