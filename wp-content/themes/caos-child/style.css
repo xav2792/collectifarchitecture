@@ -11,7 +11,7 @@ Version: 0.1.0
 @font-face {
     font-family: "Extros Backstage";
     font-weight: bold;
-    src: url('extros/Extros-Backstage.ttf');
+    src: url('font/extros/Extros-Backstage.ttf');
 }
 
 /*footer*/
@@ -71,13 +71,20 @@ h2.titre-service{
     height: 70px;
 }
 
-.bloc-services{
-height: 285px;
+.bloc-service{
+
 }
-.content-services{
+.content-service{
     height: 215px;
+    background-color: #131840;
 }
 .bloc-realisations{
-    height:490px;
+    height:900px;
+}
+p.texte_service{
+    font-size: 18px;
+    text-align: center ;
+    margin-top: 10vh;
+    padding-top: 13vh;
 }
 

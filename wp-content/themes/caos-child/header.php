@@ -15,8 +15,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>
     <!-- WP_Head -->
     <?php wp_head(); ?>
     <!-- End WP_Head -->
@@ -80,6 +79,3 @@ if ( get_header_image() ){
 </header>
 <div class="clearfix"></div>
 
-<?php if ( !is_single() ) { ?>
-<div id="container" class="container">
-    <?php } ?>
